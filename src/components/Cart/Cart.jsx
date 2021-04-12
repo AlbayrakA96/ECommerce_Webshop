@@ -9,7 +9,7 @@ const Cart = ({ cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart
   const classes = useStyles();
 
   const EmptyCard = () => <Typography variantt="subtitle1">
-    <Link to='/' className={classes.link}>Je winkelmand is leeg, ga terug om te shoppen. </Link>
+    <Link to='/' className={classes.link}>Je winkelmand is leeg, klik hier om verder te winkelen. </Link>
     </Typography>;
 
   const FilledCart = () => (
